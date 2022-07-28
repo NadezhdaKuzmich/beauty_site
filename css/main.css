@@ -194,7 +194,7 @@ h1 {
     display: inline-block;
     width: 100%;
     min-width: 1150px;
-    padding: 77px 0 0 0;
+    padding: 81px 0 0 0;
 }
 h2 {
     font-weight: 700;
@@ -242,7 +242,7 @@ h2 {
 }
 .card_content {
     text-align: center;
-    padding: 20px 30px 25px 30px;
+    padding: 16px 30px 25px 30px;
 }
 .card_box {
     color: var(--base-color);
@@ -259,7 +259,7 @@ h2 {
 .btn.two.buy {
     max-width: 130px;
     margin: 0;
-    padding: 9px 40px;
+    padding: 10px 40px;
     border-radius: 30px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -280,7 +280,7 @@ h2 {
 }
 .subscribe {
     width: 540px;
-    margin: 100px 0;
+    margin: 99px 0;
     padding: 0;
     background: var(--pinc);
     overflow: hidden;
@@ -322,7 +322,7 @@ h2 {
     height: 140px;
 }
 .text {
-    padding: 35px 0 35px 40px;
+    padding: 36px 0 34px 40px;
 }
 .car {
     padding: 56px 45px;
@@ -362,6 +362,7 @@ h2 {
 }
 .bottom {
     margin-bottom: 80px;
+    padding: 81px 0 0 0;
 }
 #footer {
     background: var(--white);
@@ -416,7 +417,7 @@ h3 {
     height: 45px;
     border: 2px solid #F13C6E;
     border-radius: 50%;
-    margin: 0 15px 0 0;
+    margin: 20px 15px 0 0;
 }
 .img-contact {
     display: inline-block;
@@ -447,7 +448,7 @@ h3 {
     vertical-align: middle;
 }
 .footer-contacts .main{
-    margin: 29px 0;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 .footer-end {
