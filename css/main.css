@@ -110,7 +110,7 @@ img {
     font-size: 16px;
     text-decoration: none;
     color: var(--black);
-    margin: 0 40px;
+    margin: 30px 33px;
 }
 .tel:hover {
     color: var(--hover-color);
