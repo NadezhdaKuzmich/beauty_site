@@ -64,6 +64,9 @@ img {
     list-style: none;
     text-align: center;
 }
+li {
+    display: inline-block;
+}
 .menu a {
     color: var(--base-color);
     text-decoration: none;
@@ -73,8 +76,7 @@ img {
     color: var(--hover-color)
 }
 .menu > li {
-    display: inline-block;
-    padding: 0 15px;
+    padding: 0 15px 0 12px;
 }
 .menu ul {
     display: none;
@@ -110,7 +112,7 @@ img {
     font-size: 16px;
     text-decoration: none;
     color: var(--black);
-    margin: 30px 33px;
+    margin: 16px 34px;
 }
 .tel:hover {
     color: var(--hover-color);
@@ -131,7 +133,6 @@ img {
 }
 .btn.one {
     min-width: 170px;
-    height: 40px;
     padding: 10px 26px;
 }
 .btn:hover {
@@ -144,13 +145,14 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;    
-    padding: 30px 40px 30px;
+    padding: 30px 0;
     background: var(--white);
     border: 1px solid var(--light-gray);
     text-align: justify;
 }
-.header-bar a {
-    margin: 0 6px 0 0;
+.header-bar li {
+    padding: 0 23px 0 18px;
+    margin-right: -4px;
 }
 .main-poster{
     width: 100%;
@@ -175,7 +177,7 @@ h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
 }
 .two {
     color: var(--white);
@@ -184,7 +186,7 @@ h1 {
     transition: background var(--speed);
     letter-spacing: 0.05em;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 44px;
 }
 .btn.two:hover {
     background: var(--white);
@@ -242,24 +244,28 @@ h2 {
 }
 .card_content {
     text-align: center;
-    padding: 16px 30px 25px 30px;
+    padding: 18px 30px 25px 30px;
 }
 .card_box {
     color: var(--base-color);
     text-decoration: none;
 }
+.card_box:hover {
+    color: var(--hover-color);
+}
 .price {
     margin: 0;
-    padding: 12px 0;
+    padding: 14px 0;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
+    letter-spacing: 0.05em;
     color: var(--black);
 }
 .btn.two.buy {
-    max-width: 130px;
+    min-width: 130px;
     margin: 0;
-    padding: 10px 40px;
+    padding: 9px 40px;
     border-radius: 30px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -276,17 +282,20 @@ h2 {
     color: var(--white);
     overflow: hidden;
     padding: 0;
-    margin: 0;
+    margin: 98px 0 95px;
+}
+.main-cutaway .container {
+    overflow: hidden;
 }
 .subscribe {
     width: 540px;
-    margin: 99px 0;
+    margin: 0;
     padding: 0;
     background: var(--pinc);
     overflow: hidden;
 }
 .subscribe h4 {
-    padding: 0 0 16px;
+    padding: 0 0 19px;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -294,7 +303,7 @@ h2 {
 .email {
     width: 225px;
     height: 35px;    
-    margin: 29px 0 0 0;
+    margin: 27px 0 0 0;
     border: none;
     border-radius: 30px;
     padding: 9px 104px 9px 25px;
@@ -306,7 +315,8 @@ h2 {
     max-height: 35px;
     padding: 8px;
     vertical-align: top;
-    margin: 29px 0 0 0;
+    margin: 27px 0 0 0;
+    letter-spacing: normal;
 }
 .right {
     float: right;
@@ -322,7 +332,7 @@ h2 {
     height: 140px;
 }
 .text {
-    padding: 36px 0 34px 40px;
+    padding: 34px 0 35px 40px;
 }
 .car {
     padding: 56px 45px;
@@ -333,6 +343,7 @@ h2 {
 }
 .main-brand {
     width: 100%;
+    margin: 0 0 82px;
 }
 .line-brand {
     overflow: hidden;
@@ -347,7 +358,7 @@ h2 {
 }
 .img-brand {
     display: inline-block;
-    padding: 28px 60px 40px 61px;
+    padding: 33px 65px 34px 62px;
     vertical-align: middle;
     transition: transform 1s ease-in-out;
 }
@@ -361,8 +372,8 @@ h2 {
     width: calc(100%/4);
 }
 .bottom {
+    padding: 0;
     margin-bottom: 80px;
-    padding: 81px 0 0 0;
 }
 #footer {
     background: var(--white);
@@ -386,7 +397,7 @@ h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    padding: 58px 0 24px 0;
+    padding: 60px 0 24px;
 }
 .line {
     min-width: 255px;
@@ -398,7 +409,7 @@ h3 {
     min-height: 158px;
     font-size: 12px;
     line-height: 28px;
-    margin: 0 0 45px 0;
+    margin: 0 0 45px;
     padding: 0;
 }
 .column a{
@@ -408,8 +419,13 @@ h3 {
     overflow: hidden;
     border-top: 1px solid var(--light-gray);
 }
+.footer-contacts .main .container {
+    overflow: hidden;
+}
 .footer-contacts .main {
     overflow: hidden;
+    margin: 32px 0;
+    padding: 0;
 }
 .box_contact {
     display: inline-block;
@@ -417,7 +433,7 @@ h3 {
     height: 45px;
     border: 2px solid #F13C6E;
     border-radius: 50%;
-    margin: 18px 15px 33px 0;
+    margin: 5px 14px 0 1px;
 }
 .img-contact {
     display: inline-block;
@@ -446,10 +462,6 @@ h3 {
 .contact {
     display: inline-block;
     vertical-align: middle;
-}
-.footer-contacts .main{
-    margin: 20px 0 0;
-    padding: 0;
 }
 .footer-end {
     min-width: 1150px;
